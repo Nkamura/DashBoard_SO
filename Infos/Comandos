@@ -1,0 +1,67 @@
+*** DADOS BÁSICOS NECESSÁRIOS ***
+-Sitema (Hardware e Software)
+-Processos/Threads
+-Sistemas de arquivos
+-Memória
+-Terminal
+
+
+________________________________________________________________________
+*** DASHBOARDS QUE EU ENCONTREI ***
+https://afaqurk.github.io/linux-dash/#/basic-info
+https://docs.sciencelogic.com/latest/Content/Web_Beta_PowerPacks_and_Features/SL1_Dashboards_Linux/linux_dashboards_viewing_dbs.htm
+
+*** SOBRE DASHBOARDS ***
+http://2engenheiros.com/2020/01/21/dashboard-usando-r/
+________________________________________________________________________
+*** INFORMAÇÕES DO SISTEMA ***
+cat /proc/cpuinfo
+lscpu (acho que talvez seja mais fácil por ser mais "filtrado" por si só)
+
+FILTRAR COM GREP
+Exemplo: cat /proc/cpuinfo | grep "model name"
+
+
+________________________________________________________________________
+*** MEMÓRIA ***
+free -h
+
+
+________________________________________________________________________
+*** VERSÃO DO SISTEMA OPERACIONAL ***
+lsb release -a
+uname -a
+uname -r (só versão)
+
+
+________________________________________________________________________
+*** PARTIÇÕES DO SISTEMA ***
+cat /proc/partitions
+fdisk -l (talvez dê problema com permissão, precisa de sudo)
+
+
+________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+________________________________________________________________________
+*** BIBLIOGRAFIA ***
+
+https://elias.praciano.com/2015/09/comandos-para-obter-informacoes-do-seu-sistema-ubuntu/
+https://sempreupdate.com.br/5-maneiras-de-verificar-as-informacoes-da-cpu-no-linux/
+
+
+
+
+
+
+
+
+
